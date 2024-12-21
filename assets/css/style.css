@@ -1,0 +1,108 @@
+
+/* texto*/
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: black;
+}
+.navbar{
+
+    background: transparent;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+
+    font-family:'Roboto',sans-serif;
+    font-size: 12x;
+    font-weight: 100;
+}
+
+h3{
+    font-family: 'Roboto',sans serif;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    border-bottom: medium solid rgb(34, 165, 165);
+  
+}
+
+#avionColor{
+    color: white;
+
+
+}
+
+.container-fluid{
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.fondo-avion{
+
+    background-color: rgb(34, 165, 165);
+    height: 2.15rem;
+}
+
+.fondo-alerta{
+
+    background-color: rgb(34, 165, 165);
+}
+
+.text-center{
+
+   background-color:rgb(34, 165, 165);
+   margin-top: 30px;
+}
+ 
+ h4{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    }
+
+
+.comenzar{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    /*padding-top: 60px;
+    padding-left: 520px;*/
+    }
+
+h6{
+
+padding-top: 10px;
+/*float:left;
+float:right;*/
+}
+
+#fondo-visa{
+
+    background-color: white;
+}
+
+#github{
+    color: white;
+}
+#linkedin{
+color: white;
+}
+#twiter{
+color: white;
+}
+#facebook{
+color:white
+}
+
