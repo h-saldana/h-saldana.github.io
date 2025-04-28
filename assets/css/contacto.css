@@ -1,26 +1,85 @@
-*{
-    font-family: 'Roboto', sans-serif;
-}
-    
-body{
-        background: black;
-}
-
-.texto{
-    color: white ;   
-}
-
-.formulario{
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
     display: flex;
-    flex-direction: column;
-    padding: 5% 30%;
-}
-
-#textocheck{
-    color:white;
-}
-
-
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .formulario {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+ 
+  .texto {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  
+  .input-padron,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  .enviar {
+    background: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  
+  .enviar:hover {
+    background: #0056b3;
+  }
+  
+ 
+  fieldset {
+    border: none;
+    margin-top: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  
+  @media (max-width: 500px) {
+    .formulario {
+      max-width: 90%;
+    }
+  }
 
 
 
