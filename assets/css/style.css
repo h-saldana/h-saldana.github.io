@@ -1,13 +1,13 @@
-
 /* texto*/
-*{
-font-family: 'Roboto', sans-serif;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     background: black;
 }
-.navbar{
+
+.navbar {
 
     background: transparent;
     position: fixed;
@@ -17,17 +17,21 @@ body{
 
 .navbar-nav {
     margin-left: auto;
-  }
+}
 
-.navbar-brand{
+.navbar-brand {
 
-    font-family:'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12x;
     font-weight: 100;
 }
 
-h3{
-    font-family: 'Roboto',sans serif;
+#carouselExampleSlidesOnly {
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Roboto', sans serif;
     color: white;
     text-align: center;
     margin-left: 30px;
@@ -37,146 +41,164 @@ h3{
     padding-bottom: 20px;
     padding-right: 100px;
     border-bottom: medium solid rgb(34, 165, 165);
-  
+
 }
 
-#container-one{
+#container-one {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+#container-two {
     margin-left: auto;
     margin-right: auto;
 }
 
-#container-two{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#avionColor{
+#avionColor {
     color: white;
 
 
 }
 
-.container-fluid{
+.container-fluid {
     padding-top: 50px;
     padding-left: 110px;
     padding-bottom: 50px;
     padding-right: 100px;
 }
 
-.fondo-avion{
+.fondo-avion {
 
     background-color: rgb(34, 165, 165);
     height: 2.15rem;
 }
 
-.fondo-alerta{
+.fondo-alerta {
 
     background-color: rgb(34, 165, 165);
 }
 
-.text-center{
+.text-center {
 
-   background-color:rgb(34, 165, 165);
-   margin-top: 30px;
+    background-color: rgb(34, 165, 165);
+    margin-top: 30px;
 }
- 
- h4{
+
+h4 {
     color: black;
     text-align: center;
     padding-top: 100px;
-    }
+}
 
 
-.comenzar{
+.comenzar {
     background-color: white;
     text-align: center;
     padding-top: 10px;
     padding-left: 80px;
     margin-left: 80px;
-    margin-right: 80px;    
-   
-    }
+    margin-right: 80px;
 
-.slogan{
+}
+
+.slogan {
     text-align: center;
     margin-bottom: 150px;
     margin-right: 50px;
 }
-#btn{
+
+#btn {
     width: 140px;
     height: 40px;
     margin-bottom: 80px;
 }
 
-.btn-class{
+.btn-class {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 
 }
-h6{
 
-padding-top: 10px;
-/*float:left;
+h6 {
+
+    padding-top: 10px;
+    /*float:left;
 float:right;*/
 }
 
-#fondo-visa{
+#fondo-visa {
 
     background-color: white;
 }
 
-#github{
+#github {
     color: white;
 }
-#linkedin{
-color: white;
+
+#linkedin {
+    color: white;
 }
-#twiter{
-color: white;
+
+#twiter {
+    color: white;
 }
-#facebook{
-color:white
+
+#facebook {
+    color: white
 }
 
 @media screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 10px;
     }
+
+    #carouselExampleSlidesOnly {
+        width: 100vw;
+        margin-right: 0;
+
+    }
+
     h3 {
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .container-fluid {
         padding-left: 20px;
         padding-right: 20px;
     }
 
     #container-one {
-        margin-left: 55px;
+        margin-left: 48px;
     }
+
     #container-two {
         margin-left: 65px;
     }
+
     .comenzar {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .slogan {
         display: flex;
         margin-bottom: 50px;
         margin-right: 70px;
-        
+
     }
+
     .btn-class {
         margin-bottom: 50px;
         margin-left: 40px;
         width: 50%;
         height: 50%;
-    }   
-    #btn-text{
+    }
+
+    #btn-text {
         display: none;
     }
-    
+
 }
