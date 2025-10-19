@@ -77,11 +77,16 @@ body {
   }
   
   
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     .formulario {
       max-width: 90%;
     }
+  } */
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    width: 90vw;
+    margin-left: 80px;
   }
 
-
-
+}
